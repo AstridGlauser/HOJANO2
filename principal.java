@@ -35,8 +35,8 @@ public class principal {
 
         for (int i = 0; i < info.size(); i++) {//recorre el vector
             int Total = Calculadora.Evaluate(info.get(i));//devuelve un entero que almacena en la variable total
-            if (Calculadora.condicion) {//evalua que la condicion no sea falsa
-                System.out.println("No. " + (i + 1) + ": " + Total);
+          if (Calculadora.condicion) {//evalua que la condicion no sea falsa
+                System.out.println("Resultado No. " + (i + 1) + ": " + Total);
             }
 
         }
