@@ -97,10 +97,7 @@ public class PosfixCalc implements IPosfixCalc {
         if (condicion == true) {
             s = mistack.pull();
 
-        } else if (condicion == false) {//capta excepciones
-            System.out.println("Error");
-
-        }
+        } 
 
         return s;//retorna el entero
 
